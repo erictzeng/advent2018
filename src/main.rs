@@ -15,7 +15,8 @@ fn main() {
     let day = value_t!(matches.value_of("day"), i32).unwrap_or(-1);
     match day {
         1 => advent2018::day01::solve(),
-        2 | -1 => advent2018::day02::solve(),
+        2 => advent2018::day02::solve(),
+        3 | -1 => advent2018::day03::solve(),
         _ => {
             println!("Unknown day: {}", day);
             std::process::exit(1);

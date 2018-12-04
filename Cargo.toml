@@ -5,3 +5,4 @@ authors = ["Eric Tzeng"]
 
 [dependencies]
 clap = "*"
+regex = "*"
