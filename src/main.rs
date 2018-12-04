@@ -16,7 +16,8 @@ fn main() {
     match day {
         1 => advent2018::day01::solve(),
         2 => advent2018::day02::solve(),
-        3 | -1 => advent2018::day03::solve(),
+        3 => advent2018::day03::solve(),
+        4 | -1 => advent2018::day04::solve(),
         _ => {
             println!("Unknown day: {}", day);
             std::process::exit(1);

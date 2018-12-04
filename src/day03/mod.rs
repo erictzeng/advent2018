@@ -1,8 +1,6 @@
-extern crate regex;
-
 use std::io::{BufReader, BufRead};
 use std::fs::File;
-use self::regex::Regex;
+use regex::Regex;
 
 struct Claim {
     id: i32,
